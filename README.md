@@ -26,8 +26,8 @@
 
     采用经典PID算法控制
     本系统控制选用PD控制，舍去I项，积分相调节不明显。
-    最终PD参数为：Kp=0.5  Ki=0.1  调试顺序：先P后D
-    相关函数：char speedControl(uchar speed,uchar target)
+    最终PD参数为：Kp=0.5  Ki=0.1,调试顺序：先P后D
+    相关函数：char speedControl(uchar speed,uchar target)
 ####最终调节效果不理想：
 
     原因
