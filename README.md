@@ -63,9 +63,7 @@
 ####相关函数：
 
     数据发送：char InPackage(unsigned char *usart_data,unsigned char ID)
-    
     数据接收：unsigned char DePackage(void)
-    
     数据校验：unsigned char check_data(void)
     
 ####特点：
